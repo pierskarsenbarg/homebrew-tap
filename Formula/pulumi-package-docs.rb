@@ -1,28 +1,28 @@
 class PulumiPackageDocs < Formula
   desc "Local documentation viewer for parameterized/local Pulumi providers"
   homepage "https://github.com/pierskarsenbarg/pulumi-package-docs"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.0/pulumi-package-docs-darwin-arm64"
-      sha256 "a0a1939e904ab9a83d2ed387e6a7a0bf5a0f18db53de8db04ea7b4f48d833d24"
+      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.1/pulumi-package-docs-darwin-arm64"
+      sha256 "aa0cc5384876738c70249030d93c4c36085dc422e425c90195c81ab2bd3c6c74"
     end
     on_intel do
-      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.0/pulumi-package-docs-darwin-x64"
-      sha256 "c91dbb796cd898cbb13b055427b1687044b531b8ce9ee089515a0e0cb24c93be"
+      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.1/pulumi-package-docs-darwin-x64"
+      sha256 "a839dd2863fdd2f0a83244e121bc94433205d668eaabd9c7e31d95c3cc5e604c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.0/pulumi-package-docs-linux-arm64"
-      sha256 "10f33a86ba0e807d72d9d657cfdb7d4a7400bc16eca3c97383ba21e77d0e7e47"
+      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.1/pulumi-package-docs-linux-arm64"
+      sha256 "26ed19a902c57792670e41b327b348d6c5c73e6806a0a8e16ebab8b97b78ac4f"
     end
     on_intel do
-      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.0/pulumi-package-docs-linux-x64"
-      sha256 "a802d5e363abce4b2c6d2c390aa822d810216ce1aed79b00fdd400a2736aff3d"
+      url "https://github.com/pierskarsenbarg/pulumi-package-docs/releases/download/v0.9.1/pulumi-package-docs-linux-x64"
+      sha256 "cafab102ff4eaebd8ceb2b2dcb5affb3698dd939d3d471bbcb325e580bb3b4db"
     end
   end
 
